@@ -1,0 +1,75 @@
+@media(max-width: 520px){
+    main{
+        background: url(../images/pattern-background-mobile.svg) center no-repeat;
+        background-size: cover;
+        background-color: var(--pale-blue);
+    }
+    .card{
+        max-width: 328px;
+        max-height: 566px;
+    }
+
+    .propaganda{
+        padding: 30px 26px;
+    }
+
+    .propaganda .title{
+        font-size: 22px;
+    }
+    .propaganda .text{
+        padding: 17px 14px 22px 14px;
+        line-height: 25px;
+        letter-spacing: -0.5px;
+
+    }
+
+    .propaganda .offer-box{
+        padding: 16px 14px;
+    }
+
+    .propaganda .offer-box .plan-price .plan, .propaganda .offer-box .plan-price .price{
+        font-size: 14px;
+    }
+
+    .propaganda .payment-btn{
+        margin: 25px 0;
+    }
+}
+
+@media(max-height: 720px){
+    main{
+        background: url(../images/pattern-background-mobile.svg) center no-repeat;
+        background-size: cover;
+        background-color: var(--pale-blue);
+    }
+    .card{
+        max-width: 328px;
+        max-height: 550px;
+    }
+
+    .propaganda{
+        padding: 25px 26px;
+    }
+
+    .propaganda .title{
+        font-size: 22px;
+    }
+    .propaganda .text{
+        padding: 17px 14px 22px 14px;
+        line-height: 25px;
+        letter-spacing: -0.5px;
+
+    }
+
+    .propaganda .offer-box{
+        padding: 16px 14px;
+    }
+
+    .propaganda .offer-box .plan-price .plan, .propaganda .offer-box .plan-price .price{
+        font-size: 14px;
+    }
+
+    .propaganda .payment-btn{
+        margin: 22px 0;
+    }
+}
