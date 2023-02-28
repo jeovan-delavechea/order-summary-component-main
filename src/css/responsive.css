@@ -1,7 +1,7 @@
 @media(max-width: 520px){
     main{
         background: url(../images/pattern-background-mobile.svg) center no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-color: var(--pale-blue);
     }
     .card{
@@ -39,7 +39,7 @@
 @media(max-height: 720px){
     main{
         background: url(../images/pattern-background-mobile.svg) center no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-color: var(--pale-blue);
     }
     .card{

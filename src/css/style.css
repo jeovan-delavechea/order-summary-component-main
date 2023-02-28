@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 16px;
+    font-size: 62.5%;
     font-weight: 500;
     color: var(--desaturated-blue);
 }
@@ -43,13 +43,14 @@ main{
 .propaganda .title{
     color: var(--dark-blue);
     font-weight: 900;
-    font-size: 28px;
+    font-size: 2.8em;
 }
 
 .propaganda .text{
     padding: 18px;
     text-align: center;
     line-height: 26px;
+    font-size: 1.6em;
 }
 
 .propaganda .offer-box{
@@ -70,6 +71,7 @@ main{
 .propaganda .offer-box .plan-price{
     line-height: 25px;
     text-align: center;
+    font-size: 1.3em;
 }
 
 .propaganda .offer-box .plan-price .plan{
@@ -78,7 +80,7 @@ main{
 }
 
 .propaganda .offer-box .change{
-    font-size: 13px;
+    font-size: 1.3em;
     font-weight: 700;
     color: var(--bright-blue);
 }
@@ -94,25 +96,28 @@ main{
     padding: 16px 0;
     width: 100%;
     border: none;
-    border-radius: 13px;
+    border-radius: 1em;
     background-color: var(--bright-blue);
     color: #fff;
     font-weight: 700;
-    font-size: 15.5px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    transition: 0.15s ease-in-out;
+    font-size: 1.55em;
     cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    box-shadow: 0px 24px 52px 0px hsla(245, 75%, 52%,0.5);
+    -webkit-box-shadow: 0px 24px 52px 0px rgba(56,41,224,0.48);
+    -moz-box-shadow: 0px 24px 52px 0px rgba(56,41,224,0.48);
 }
 
 .propaganda .payment-btn:hover{
     background-color: var(--violet-blue);
+    transform: scale(1.02);
 }
 
 .propaganda .cancel{
     text-decoration: none;
     color: var(--desaturated-blue);
     font-weight: 700;
-    font-size: 15px;
+    font-size: 1.5em;
 }
 
 .propaganda .cancel:hover{
