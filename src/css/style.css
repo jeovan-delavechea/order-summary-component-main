@@ -8,8 +8,8 @@ body{
 }
 
 main{
-    background: url(../images/pattern-background-desktop.svg) center no-repeat;
-    background-size: cover;
+    background: url(../images/pattern-background-desktop.svg) no-repeat;
+    background-size: contain;
     display: flex;
     align-items: center;
     justify-content: center;

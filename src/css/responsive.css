@@ -1,9 +1,4 @@
 @media(max-width: 520px){
-    main{
-        background: url(../images/pattern-background-mobile.svg) center no-repeat;
-        background-size: contain;
-        background-color: var(--pale-blue);
-    }
     .card{
         max-width: 328px;
         max-height: 566px;
@@ -37,11 +32,6 @@
 }
 
 @media(max-height: 720px){
-    main{
-        background: url(../images/pattern-background-mobile.svg) center no-repeat;
-        background-size: contain;
-        background-color: var(--pale-blue);
-    }
     .card{
         max-width: 328px;
         max-height: 550px;
@@ -71,5 +61,13 @@
 
     .propaganda .payment-btn{
         margin: 22px 0;
+    }
+}
+
+@media(max-width: 920px){
+    main{
+        background: url(../images/pattern-background-mobile.svg) no-repeat;
+        background-size: contain;
+        background-color: var(--pale-blue);
     }
 }
